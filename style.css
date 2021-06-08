@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lavender;
+}
+
+button {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 60%;
+    margin: 10px auto 0;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.start_container {
+    min-height: 70px;
+    border-radius: 15px;
+}
+
+h3 {
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+.form_container {
+    padding: 10px;
+}
+
+.form_warning {
+    background-color: lightpink;
+    border-radius: 10px;
+    border: 1px solid lightcoral;
+}
+
+.form_holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+input, select {
+    width: 150px;
+    height: 30px;
+    outline: none;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px white solid;
+    padding: 5px 10px;
+}
+
+button {
+    height: 30px;
+    outline: none;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cancel_button {
+    background-color: tomato;
+}
+
+.add_button {
+    background-color: lightgreen;
+}
+
+.button_container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.start_button {
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: lightskyblue;
+}
+
+.filter_button {
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: #fed8b1;
+}
+
+.filter_container {
+    padding: 10px;
+}
+
+.filter {
+    margin: 0 15px 10px 0;
+}
+
+.searching_button {
+    width: 150px;
+    background-color: #fed8b1;
+}
+
+.searching_container {
+    padding: 10px 10px;
+}
+
+.delete_button {
+    background-color: white;
+    padding: 5px 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: lightsteelblue solid 1px;
+    padding: 10px;
+}
+
+li:last-of-type {
+    border-bottom: none;
+}
+
+.importance_one {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: rgba(207, 17, 17, 0.137);
+}
+
+.importance_two {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: rgba(207, 17, 17, 0.432);
+}
+
+.importance_three {
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: rgba(207, 17, 17, 0.753);
+}
+
+.form_warning {
+    width: 60%;
+    height: 35px;
+    margin: 0 auto 20px;
+    text-align: center;
+    line-height: 2em;
+}
+
+.text_info {
+    width: 80%;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_info h4 {
+    line-height: 2em;
+}
+
+.text_info span {
+    width: 60%;
+    line-height: 2em;
+}
+
+.graph_info {
+    width: 90px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2em;
+}

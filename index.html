@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="start_container" class="start_container">
+            <h3>Hello, I'm simple todo-app!</h3>
+            <div class="button_container">
+                <button id="start" class="start_button">Create task</button>
+                <button id="filter" class="filter_button">Filter</button>
+                <button id="searching" class="searching_button">Searching</button>
+            </div>
+        </div>
+        <div id="form_container" class="form_container hidden">
+            <div id="warning" class="form_warning hidden">
+                <p>Please enter some todo</p>
+            </div>
+            <div class="form_holder">
+                <form id="form" submit>
+                    <input id="input" maxlength="30" placeholder="todo..">
+                    <input id="input_details" maxlength="60" placeholder="todo details">
+                    <select id="select_importance">
+                        <option disabled>choose importance</option>
+                        <option>3</option>
+                        <option>2</option>
+                        <option>1</option>
+                    </select>
+                    <button class="add_button">Add</button>
+                </form>
+                <button id="cancel" class="cancel_button">Cancel</button>
+            </div>
+        </div>
+        <div id="filter_container" class="filter_container hidden"> 
+            <button id="from_max" class="filter">from 3 to 1</button>
+            <button id="from_min" class="filter">from 1 to 3</button>
+            <button id="close_filter" class="cancel_button">Close</button>
+        </div>
+        <div id="searching_container" class="searching_container hidden">
+            <input id="searching_input" placeholder="search..">
+            <button id="start_searching">Find!</button>
+            <button id="close_searching">Close</button>
+        </div>
+        <div>
+            <ul id="wrap_list">
+                <li>Todo list is empty</li>
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
